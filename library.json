@@ -1,0 +1,229 @@
+{
+  "authors" : {
+    "list" : [ {
+      "id" : 1,
+      "name" : "an111",
+      "firstName" : "afn11"
+    }, {
+      "id" : 2,
+      "name" : "an222",
+      "firstName" : "afn22"
+    }, {
+      "id" : 3,
+      "name" : "an111",
+      "firstName" : "afn22"
+    } ]
+  },
+  "books" : {
+    "list" : [ {
+      "id" : 1,
+      "name" : "bn111",
+      "author" : {
+        "id" : 1,
+        "name" : "an111",
+        "firstName" : "afn11"
+      },
+      "publishingYear" : 2001
+    }, {
+      "id" : 2,
+      "name" : "bn222",
+      "author" : {
+        "id" : 2,
+        "name" : "an222",
+        "firstName" : "afn22"
+      },
+      "publishingYear" : 2002
+    }, {
+      "id" : 3,
+      "name" : "bn111",
+      "author" : {
+        "id" : 3,
+        "name" : "an111",
+        "firstName" : "afn22"
+      },
+      "publishingYear" : 2003
+    }, {
+      "id" : 4,
+      "name" : "bn333",
+      "author" : {
+        "id" : 1,
+        "name" : "an111",
+        "firstName" : "afn11"
+      },
+      "publishingYear" : 2004
+    }, {
+      "id" : 5,
+      "name" : "bn444",
+      "author" : {
+        "id" : 3,
+        "name" : "an111",
+        "firstName" : "afn22"
+      },
+      "publishingYear" : 2005
+    } ]
+  },
+  "copies" : {
+    "list" : [ {
+      "id" : 1,
+      "name" : "",
+      "book" : {
+        "id" : 1,
+        "name" : "bn111",
+        "author" : {
+          "id" : 1,
+          "name" : "an111",
+          "firstName" : "afn11"
+        },
+        "publishingYear" : 2001
+      },
+      "number" : "101"
+    }, {
+      "id" : 2,
+      "name" : "",
+      "book" : {
+        "id" : 1,
+        "name" : "bn111",
+        "author" : {
+          "id" : 1,
+          "name" : "an111",
+          "firstName" : "afn11"
+        },
+        "publishingYear" : 2001
+      },
+      "number" : "102"
+    }, {
+      "id" : 3,
+      "name" : "",
+      "book" : {
+        "id" : 2,
+        "name" : "bn222",
+        "author" : {
+          "id" : 2,
+          "name" : "an222",
+          "firstName" : "afn22"
+        },
+        "publishingYear" : 2002
+      },
+      "number" : "111"
+    }, {
+      "id" : 4,
+      "name" : "",
+      "book" : {
+        "id" : 3,
+        "name" : "bn111",
+        "author" : {
+          "id" : 3,
+          "name" : "an111",
+          "firstName" : "afn22"
+        },
+        "publishingYear" : 2003
+      },
+      "number" : "121"
+    }, {
+      "id" : 5,
+      "name" : "",
+      "book" : {
+        "id" : 4,
+        "name" : "bn333",
+        "author" : {
+          "id" : 1,
+          "name" : "an111",
+          "firstName" : "afn11"
+        },
+        "publishingYear" : 2004
+      },
+      "number" : "131"
+    }, {
+      "id" : 6,
+      "name" : "",
+      "book" : {
+        "id" : 4,
+        "name" : "bn333",
+        "author" : {
+          "id" : 1,
+          "name" : "an111",
+          "firstName" : "afn11"
+        },
+        "publishingYear" : 2004
+      },
+      "number" : "132"
+    }, {
+      "id" : 7,
+      "name" : "",
+      "book" : {
+        "id" : 4,
+        "name" : "bn333",
+        "author" : {
+          "id" : 1,
+          "name" : "an111",
+          "firstName" : "afn11"
+        },
+        "publishingYear" : 2004
+      },
+      "number" : "133"
+    }, {
+      "id" : 8,
+      "name" : "",
+      "book" : {
+        "id" : 5,
+        "name" : "bn444",
+        "author" : {
+          "id" : 3,
+          "name" : "an111",
+          "firstName" : "afn22"
+        },
+        "publishingYear" : 2005
+      },
+      "number" : "141"
+    } ]
+  },
+  "readers" : {
+    "list" : [ {
+      "id" : 1,
+      "name" : "rn111",
+      "firstName" : "rfn11",
+      "birthDate" : [ 2001, 1, 1 ]
+    }, {
+      "id" : 2,
+      "name" : "rn222",
+      "firstName" : "rfn22",
+      "birthDate" : [ 2002, 2, 2 ]
+    }, {
+      "id" : 3,
+      "name" : "rn333",
+      "firstName" : "rfn33",
+      "birthDate" : [ 2003, 3, 3 ]
+    } ]
+  },
+  "log" : {
+    "list" : [ {
+      "id" : 1,
+      "name" : "",
+      "readerId" : 1,
+      "copyId" : 1,
+      "giveDate" : [ 2024, 5, 11 ],
+      "getDate" : [ 2024, 5, 12 ]
+    }, {
+      "id" : 2,
+      "name" : "",
+      "readerId" : 1,
+      "copyId" : 3,
+      "giveDate" : [ 2024, 5, 11 ],
+      "getDate" : null
+    }, {
+      "id" : 3,
+      "name" : "",
+      "readerId" : 2,
+      "copyId" : 1,
+      "giveDate" : [ 2024, 5, 12 ],
+      "getDate" : null
+    }, {
+      "id" : 4,
+      "name" : "",
+      "readerId" : 2,
+      "copyId" : 4,
+      "giveDate" : [ 2024, 5, 12 ],
+      "getDate" : null
+    } ]
+  }
+}
